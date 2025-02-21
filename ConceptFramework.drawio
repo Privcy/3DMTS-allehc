@@ -1,9 +1,36 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.15">
   <diagram name="Page-1" id="vA53FIjfbBSEWwDvAePv">
-    <mxGraphModel>
+    <mxGraphModel dx="712" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qwZrsr77yzGVY-NEFFuO-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qwZrsr77yzGVY-NEFFuO-1" target="qwZrsr77yzGVY-NEFFuO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qwZrsr77yzGVY-NEFFuO-1" value="Data Collection (Video Capture)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qwZrsr77yzGVY-NEFFuO-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qwZrsr77yzGVY-NEFFuO-2" target="qwZrsr77yzGVY-NEFFuO-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qwZrsr77yzGVY-NEFFuO-2" value="Data Preprocessing (80:10:10 Split)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qwZrsr77yzGVY-NEFFuO-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qwZrsr77yzGVY-NEFFuO-15" target="qwZrsr77yzGVY-NEFFuO-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qwZrsr77yzGVY-NEFFuO-15" value="Keypoint Detection using Pose Estimation Algorithms (MediaPipe, OpenPose, BlazePose, etc.)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="250" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qwZrsr77yzGVY-NEFFuO-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qwZrsr77yzGVY-NEFFuO-17" target="qwZrsr77yzGVY-NEFFuO-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qwZrsr77yzGVY-NEFFuO-17" value="Model Training (BodyMTS)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qwZrsr77yzGVY-NEFFuO-19" value="Output" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
