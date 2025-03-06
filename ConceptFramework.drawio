@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="vA53FIjfbBSEWwDvAePv">
-    <mxGraphModel dx="1674" dy="1838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="712" dy="1830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -100,7 +100,7 @@
         <mxCell id="QMo7OaJ06PiTR2Xi3DnE-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="QMo7OaJ06PiTR2Xi3DnE-5" source="VIWNDXNCPhXkDa3LOXaH-18" target="VIWNDXNCPhXkDa3LOXaH-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VIWNDXNCPhXkDa3LOXaH-18" value="Model Training (ROCKET)" style="rounded=0;whiteSpace=wrap;html=1;" parent="QMo7OaJ06PiTR2Xi3DnE-5" vertex="1">
+        <mxCell id="VIWNDXNCPhXkDa3LOXaH-18" value="Model Training (ROCKET Time Series Classification)" style="rounded=0;whiteSpace=wrap;html=1;" parent="QMo7OaJ06PiTR2Xi3DnE-5" vertex="1">
           <mxGeometry x="5" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VIWNDXNCPhXkDa3LOXaH-26" value="Model Evaluation &amp;amp; Testing (Accuracy, Precision, Recall, F1-Score)" style="rounded=0;whiteSpace=wrap;html=1;" parent="QMo7OaJ06PiTR2Xi3DnE-5" vertex="1">
